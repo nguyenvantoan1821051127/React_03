@@ -78,7 +78,7 @@ export default class BaiTapGioHang extends Component {
       <div className='container'>
         <h3 className='text-center text-success'>Bai tap gio hang</h3>
         <ModalGioHang gioHang={this.state.gioHang} xoaGioHang={this.xoaGioHang} tangGiamSoLuong={this.tangGiamSoLuong}></ModalGioHang>
-        <div className="text-right"><span className='text-danger' style={{cursor:'pointer',
+        <div className="text-end"><span className='text-danger' style={{cursor:'pointer',
         fontSize:'17px',fontWeight:"bold"}}data-bs-toggle="modal" data-bs-target="#modelId">Gio hang ({tongSoLuong})</span></div>
         <DanhSachSanPham mangSanPham={phoneData} themGioHang={this.themGioHang}></DanhSachSanPham>
         
