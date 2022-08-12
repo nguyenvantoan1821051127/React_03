@@ -7,13 +7,13 @@ export default class ModalGioHang extends Component {
       
 <div className="modal fade" id="modelId" tabIndex={-1} role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
   <div className="modal-dialog" role="document">
-    <div className="modal-content">
+    <div className="modal-content" style={{maxWidth:'800px',width:'800px'}}>
       <div className="modal-header">
         <h5 className="modal-title">Gio hang</h5>
         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
       </div>
       <div className="modal-body">
-        <table className='table'>
+        <table className='table '>
           <thead>
             <tr>
                 <td>Ma SP</td>
